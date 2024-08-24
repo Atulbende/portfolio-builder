@@ -15,8 +15,6 @@ export const FooterSVG=()=>{
   preserveAspectRatio="xMidYMax slice"
 >
   <defs>
-
-    asdasd
     <linearGradient id="bg">
       <stop offset="0%" style={{ stopColor: "rgba(130, 158, 249, 0.06)" }} />
       <stop offset="50%" style={{ stopColor: "rgba(76, 190, 255, 0.6)" }} />
@@ -55,8 +53,7 @@ export const FooterSVG=()=>{
         keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
         repeatCount="indefinite"
       />
-    </use>
-    <use xlinkHref="#wave" opacty=".9">
+    </use>  <use xlinkHref="#wave" opacity={".9"}>
       <animateTransform
         attributeName="transform"
         attributeType="XML"
