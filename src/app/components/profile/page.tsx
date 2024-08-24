@@ -79,7 +79,7 @@ export default function Profile() {
             id="about" className='text-center text-white m-auto max-w-[45rem] leading-8 mb-2'>
                 <h2 className=' text-3xl font-medium capitalize'>About us</h2>
                 <p>Experienced software professional with <b>5 years </b> of expertise in software coding, analysis, design, and planning. Skilled in developing user-friendly UI and proficient in
-                    <b>&nbsp;ReactJs(4.5 year)</b>, NodeJs(2.5 year), JavaScript(5 year), HTML5, CSS3, and Bootstrap4, git, github. Strong track record of customer interaction involving technical
+                    <b>ReactJs(4.5 year)</b>, NodeJs(2.5 year), JavaScript(5 year), HTML5, CSS3, and Bootstrap4, git, github. Strong track record of customer interaction involving technical
                     consulting,solution design, planning, development, and deployment. Proficient in Object-Oriented Languages like C++. Collaborates closely with teams to support projects
                     throughout all phases of delivery, while also conducting testing to identify and document bugs and technical issues.</p>
                 <p className='my-2'>
