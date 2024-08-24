@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import {links} from '@/app/lib/data'
 import Link from "next/link";
-export default function(){
+export default function Header(){
     return (<>
      <motion.div
       className="intro"
