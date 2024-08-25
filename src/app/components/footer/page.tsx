@@ -4,8 +4,6 @@ export default function Footer() {
     return (<>
          <FooterSVG />
      <section className="home-div mt-24 flex text-center text-gray-200 ">
-   
-       
 
             <section className="profile-pic m-auto">
                 <small>

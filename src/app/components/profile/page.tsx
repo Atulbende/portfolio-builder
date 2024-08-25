@@ -56,8 +56,8 @@ export default function Profile() {
                         </div>
 
                         <div className='flex justify-center items-center '>
-                            <Link href={'#'} className='bg-white flex mx-2 mt-3 p-2 h-8 items-center rounded-full focus:scale-110 hover:scale-110 '>  Download CV <span className='w-100 bg-black text-white rounded-full opacity-80'><HiDownload /></span></Link>
-                            <Link href={'#'} className='bg-white flex flex-row mt-3 p-2 h-8 items-center rounded-full focus:scale-110 hover:scale-110 active:scale-105'>  <BsLinkedin className='opacity-80' /></Link>
+                            <Link href={'/Atul_Bende_resume.pdf'} target="_blank" className='bg-white flex mx-2 mt-3 p-2 h-8 items-center rounded-full focus:scale-110 hover:scale-110 '>  Download CV <span className='w-100 bg-black text-white rounded-full opacity-80'><HiDownload /></span></Link>
+                            {/* <Link href={'#'} className='bg-white flex flex-row mt-3 p-2 h-8 items-center rounded-full focus:scale-110 hover:scale-110 active:scale-105'>  <BsLinkedin className='opacity-80' /></Link> */}
                         </div>
                     </section>
                 </motion.div>
