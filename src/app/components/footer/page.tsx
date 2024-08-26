@@ -2,10 +2,10 @@ import { FooterSVG } from "./FooterSVG"
 
 export default function Footer() {
     return (<>
-         <FooterSVG />
-     <section className="home-div mt-24 flex text-center text-gray-200 ">
-
-            <section className="profile-pic m-auto">
+        
+     <section className="footer flex text-center text-gray-200 ">
+     <FooterSVG />
+            <section className="profile-pic m-auto mt-16">
                 <small>
                     &copy;2030 Atul. All rights reserved.
                 </small>
