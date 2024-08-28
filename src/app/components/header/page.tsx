@@ -2,7 +2,9 @@
 import { motion } from "framer-motion";
 import {links} from '@/app/lib/data'
 import Link from "next/link";
-export default function Header(){
+import { useState } from "react";
+export default function(){
+  const [active,setActive]=useState('Home')
     return (<>
      <motion.div
       className="intro"
@@ -16,8 +18,10 @@ export default function Header(){
     >
     <ul className="cursor-pointer menu-list ">
        {links.map((link)=>(
-        <li key={link.hash}>
-          <Link href={link.hash}>{link.link}</Link>
+        <li className={`${active==link.link?'active':''}`} key={link.hash}>
+          <Link  href={link.hash} onClick={()=>{
+              setActive(link.link)
+          }}>{link.link}</Link>
        </li>))
       }
         
