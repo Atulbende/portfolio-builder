@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import {links} from '@/app/lib/data'
 import Link from "next/link";
 import { useState } from "react";
-export default function(){
+export default function Header(){
   const [active,setActive]=useState('Home')
     return (<>
      <motion.div
