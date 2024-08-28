@@ -182,7 +182,10 @@ border-radius:58% 42% 64% 36% / 31% 66% 34% 69%
   left: 0;
 
 }
-
+.menu-list .active{
+  background:radial-gradient(78.57% 78.57% at 50.65% 0.84%,#e9d5ff 0%,#8383fd 0%,rgba(135, 160, 219, 0) 100%);
+  transition: width 0.4s ease, left 0.4s ease;
+}
 .menu-list li:hover {
 
   cursor: pointer;
