@@ -42,5 +42,14 @@ function Contact() {
         </section>
     </>);
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+export default Contact;
+=======
 
 export default Contact;
+>>>>>>> parent of d24d9ec (chat and AI conversation)
+=======
+
+export default Contact;
+>>>>>>> parent of d24d9ec (chat and AI conversation)

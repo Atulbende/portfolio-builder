@@ -33,7 +33,7 @@ export default function Career() {
                             iconStyle={{ background: item.bgColor, color: item.Color }}
                         >
                             <h3 className="vertical-timeline-element-title">{item.company}</h3>
-                            {/* <h4 className="vertical-timeline-element-subtitle">{item.place}</h4> */}
+                            <h4 className="vertical-timeline-element-subtitle">{item.position}</h4>
                             <p className=''>
                                 {item.place}
                             </p>
